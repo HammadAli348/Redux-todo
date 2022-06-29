@@ -1,0 +1,70 @@
+
+.todo__container{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.border__none{
+    border: none;
+}
+
+.todo__container--card{
+    box-shadow: 0 0 10px;
+    width: 45rem;
+    background-color: black;
+    margin: 0 auto;
+    top: 2rem;
+}
+
+.todo__button{
+    margin-left:10px ;
+}
+
+.todo__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.todo__container--ul{
+    padding-left: 0;
+}
+
+.todo-buttons{
+    display: flex;
+}
+
+.complete__todo{
+    text-decoration: line-through;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    list-style: none;
+    padding: 10px;
+    color: #096dd9;
+    opacity: 0.5;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.todo__header{
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.filter__data{
+    margin-top: 10px;
+    color: lightgrey;
+    cursor: pointer;
+}
+
