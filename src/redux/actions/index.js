@@ -4,6 +4,7 @@ import {
   ADD_TODO,
   REMOVE_TODO,
   EDIT_TODO,
+  ADD_MOVIE,
 } from "../action-types";
 
 export const SignInAction = (payload) => ({
@@ -23,6 +24,11 @@ export const addTodo = (payload) => ({
 
 export const removeTodo = (payload) => ({
   type: REMOVE_TODO,
+  payload: payload,
+});
+
+export const addMovie = (payload) => ({
+  type: ADD_MOVIE,
   payload: payload,
 });
 

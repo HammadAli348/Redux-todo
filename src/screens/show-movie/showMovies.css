@@ -1,0 +1,8 @@
+.image_card{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    box-shadow: 1 10px;
+    box-shadow: 0 0 10px;
+    align-items: center;
+}
